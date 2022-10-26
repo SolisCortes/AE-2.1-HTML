@@ -1,0 +1,145 @@
+/*#DBE75F Claro Verde
+#AEF2AC Clarito Menta
+#C8F2C2 Clarito light Green
+#32590B Oscuro verde
+#A5CC31 Normal Verde */
+html{
+    box-sizing: border-box;
+
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Genericas */
+.contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+
+}
+
+/* Header */
+.bg-img-fondo{
+    background-image: url(/assets/img/Fondo-Header.jpg);
+    height: 18.78em;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+
+
+}
+
+.bg-transp{
+    background-color:#55934cd8 ;
+    padding: 1.5em 0;
+}
+
+.nav-logo-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+
+}
+.nav-logo img{
+    width: 2em;
+}
+
+.nav-menu{
+    background-color: #32590bca;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.link-menu{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.3em;
+}
+
+.link-menu:hover{
+    background-color: #fff;
+    border-radius: 0.3em;
+    color: black;
+
+}
+/* Seccion Princiopal */
+.principal{
+    background-color:#DBE75F ;
+    margin-top: -2.5em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+
+}
+.title-principal{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+
+/* Tarjeta */
+.card{
+    
+    background-color: aquamarine;
+    border-radius: 0.5rem;
+}
+
+.img-card{
+    width: 100%;
+}
+
+.body-card{
+    padding: 1rem ;
+    /* background-color: bisque; */
+}
+
+.body-card h3{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.body{
+    font-weight: 300;
+}
+
+.btn{
+
+    display: inline-block;
+    background-color:#07f3ff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+
+}
+
+
+
+
